@@ -19,7 +19,7 @@ void pop(int arr[]) {
     }
 }
 
-void list(int arr[]) {
+void show(int arr[]) {
     if (topL == -1) {
         printf("Stack is Empty\n");
     }
@@ -46,7 +46,7 @@ int main() {
             pop(arr);
             break;
         case 3:
-            list(arr);
+            show(arr);
             break;
         }
     }
